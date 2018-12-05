@@ -1,0 +1,78 @@
+#btn-login {
+    position:absolute;
+    top: 20px;
+    margin-left: 88%;
+    z-index:2;
+    font-size: 150%;
+    color: #fd4f43;
+    background-color: transparent;
+    background-image: none;
+    border-color: #fd4f43;
+}
+
+#btn-logout {
+    position:absolute;
+    top: 20px;
+    margin-left: 88%;
+    z-index:2;
+    font-size: 120%;
+    color: #fd4f43;
+    background-color: transparent;
+    background-image: none;
+    border-color: #fd4f43;
+}
+
+#btn-drop-logout
+{
+    position:absolute;
+    top: 10px;
+    margin-left: 88%;
+    z-index:2;
+}
+
+.modal-header p {
+    display: block;
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 0px;
+    padding: 1rem;
+}
+
+#btn-signin { border-radius: 0.3rem 0 0 0; }
+#btn-signup { border-radius: 0 0.3rem 0 0; }
+
+.modal-header p:hover {
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 0px;
+    border: 0px;
+}
+
+.btn-active {
+    background: white;
+}
+
+.btn-inactive {
+    background: #d2d8d8;
+}
+
+#formRegister {
+    display: none;
+}
+
+#ModalCenterLogin input {
+    box-shadow: 0px 3px 6px rgba(210,216,216, 0.9);
+}
+
+#ModalCenterLogin #remember {
+    box-shadow: none;
+}
+
+.modal-body{
+    padding-top: 30px;
+}
